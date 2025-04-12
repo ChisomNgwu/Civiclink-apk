@@ -1,0 +1,44 @@
+.topBar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #008751F7;
+}
+
+.topBar-container h1 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  
+}
+
+.topBar-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.topBar-icons span {
+  background: #ECFFF7F7;
+  border-radius: 50%;
+  padding: 10px;
+
+  cursor: pointer;
+}
+
+
+.profile img{
+
+  width:32px;
+  height: 30px;
+  border-radius: 50%;
+  border: #008751F7;
+  border-width: 2px;
+  border-style: solid;
+  object-fit: cover;
+}
